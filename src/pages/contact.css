@@ -1,0 +1,7 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  justify-content: space-between;
+  padding-top: 2em;
+}

@@ -1,10 +1,11 @@
 import NavBar from "../components/NavBar";
-
+import "./contact.css";
 function Contact() {
   return (
-    <div>
+    <div className="contact">
       <NavBar />
-      Contact
+      <h1>Contact</h1>
+      <h1>Contact</h1>
     </div>
   );
 }
