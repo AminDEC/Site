@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7em;
+}
+
+.list {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.list > li {
+  list-style-type: none;
+}
+
+.item {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: black;
+}

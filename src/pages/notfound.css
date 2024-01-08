@@ -1,0 +1,11 @@
+.img {
+  width: 30%;
+  margin-top: 3em;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
