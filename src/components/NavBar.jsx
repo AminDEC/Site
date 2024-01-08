@@ -9,7 +9,7 @@ function NavBar() {
   return (
     <div className={styles.nav}>
       <Link to="/" className={styles.logo}>
-        Amin`s Page
+        Mostapha M Amin
       </Link>
 
       <ul className={active ? styles.open : styles.list}>

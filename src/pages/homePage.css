@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Delius+Unicase&display=swap");
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 2em;
+  width: 100%;
+  padding-bottom: 10em;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_pic {
+  width: 100%;
+  margin-top: 3em;
+  margin-bottom: 5em;
+}
+
+.name {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.5em;
+  padding-bottom: 0.5em;
+}
+.info_text {
+  font-family: "Dancing Script", cursive;
+  font-size: 2em;
+}
+
+@media (min-width: 50em) {
+  .home {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 2em;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .main_pic {
+    width: 50%;
+  }
+  .name {
+    font-size: 3em;
+    font-family: "Dancing Script", cursive;
+  }
+}

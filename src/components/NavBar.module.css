@@ -7,8 +7,9 @@
 .list {
   display: none;
 }
-.list > li {
+.open > li {
   list-style-type: none;
+  margin-bottom: 0.7em;
 }
 
 .item {
@@ -18,7 +19,7 @@
 }
 .nav {
   padding-top: 0.4em;
-  padding-left: 0.4em;
+  padding-left: 2em;
   display: flex;
   justify-content: space-between;
   padding-right: 0.5em;
@@ -29,11 +30,11 @@
   height: 2em;
 }
 .buttom {
-  width: 20px;
+  width: 1.5em;
   padding-top: 0.5em;
   padding-right: 1em;
   position: absolute;
-  right: 1em;
+  right: 2em;
 }
 
 .open {
@@ -42,6 +43,7 @@
   width: 100%;
   justify-content: center;
   align-items: center;
+  padding-left: 1em;
 }
 
 @media (min-width: 38em) {
@@ -50,6 +52,7 @@
     justify-content: space-between;
     padding: 0.7em;
     flex-direction: row;
+    padding-left: 2em;
   }
   .open {
     display: none;
@@ -59,7 +62,9 @@
     display: flex;
     justify-content: space-around;
   }
-
+  .list > li {
+    list-style-type: none;
+  }
   .buttom {
     display: none;
   }
