@@ -1,0 +1,103 @@
+* {
+  overflow-x: hidden;
+}
+
+.container {
+  padding-top: 2.5em;
+  width: 100%;
+  display: grid;
+  grid-row: 1fr;
+  grid-template-areas:
+    "profile"
+    "about"
+    "profile_data"
+    "education"
+    "courses"
+    "languages"
+    "skills"
+    "side_skills"
+    "soft_skills"
+    "experience";
+}
+.profile_data {
+  grid-area: profile_data;
+  padding: 1em;
+}
+.about {
+  grid-area: about;
+  padding: 1em;
+}
+.education {
+  grid-area: education;
+  padding: 1em;
+}
+.courses {
+  grid-area: courses;
+  padding: 1em;
+}
+.languages {
+  grid-area: languages;
+  padding: 1em;
+}
+.skills {
+  grid-area: skills;
+  padding: 1em;
+}
+.side_skills {
+  grid-area: side_skills;
+  padding: 1em;
+}
+.soft_skills {
+  grid-area: soft_skills;
+  padding: 1em;
+}
+.experience {
+  grid-area: experience;
+  padding: 1em;
+}
+#profile {
+  width: 50%;
+  border-radius: 50%;
+  grid-area: profile;
+  margin: auto;
+}
+
+h2 {
+  font-family: monospace;
+  font-size: 2.4em;
+}
+
+p {
+  font-family: Verdana;
+  font-size: 0.9em;
+}
+
+h3 {
+  font-family: Verdana;
+  font-size: 1em;
+}
+
+@media (min-width: 50em) {
+  .container {
+    padding-top: 5em;
+
+    grid-template-areas:
+      "about about profile profile"
+      "about about profile profile"
+      "profile_data profile_data languages  languages"
+      "education education courses courses"
+      "skills skills skills skills"
+      " side_skills side_skills  soft_skills soft_skills"
+      "experience experience experience experience";
+    gap: 2em;
+    padding-left: 4em;
+  }
+  #profile {
+    width: 40%;
+    margin: auto;
+  }
+  .about {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
