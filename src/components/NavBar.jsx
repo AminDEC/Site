@@ -15,7 +15,7 @@ function NavBar() {
       <ul className={active ? styles.open : styles.list}>
         <li>
           <NavLink className={styles.item} to="/about">
-            About
+            About Me
           </NavLink>
         </li>
         <li>

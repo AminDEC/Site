@@ -21,6 +21,16 @@ const Data = {
   experience: "Nothing for now  , Looking for Internship",
   side_skills: ["Git", "GitHub", "Clean Code", "Basic Photoshop"],
   soft_skills: ["Self-learning", "problem Solving", "Good Communication"],
+  contact: {
+    phone: "+989202091311",
+    telegram: "",
+    e_mail: "mostaphamohammadiamin@gmail.com",
+    skyp: "",
+    git_hub: "",
+    instagram: "",
+    etita: "",
+    linkdin: "",
+  },
 };
 
 export default Data;

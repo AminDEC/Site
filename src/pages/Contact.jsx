@@ -4,8 +4,6 @@ function Contact() {
   return (
     <div className="contact">
       <NavBar />
-      <h1>Contact</h1>
-      <h1>Contact</h1>
     </div>
   );
 }

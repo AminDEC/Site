@@ -2,6 +2,7 @@
   text-decoration: none;
   font-size: 1.5em;
   color: black;
+  padding: 10px;
 }
 
 .list {
@@ -17,6 +18,7 @@
   color: black;
   font-size: 1.2em;
 }
+
 .nav {
   padding-top: 0.4em;
   padding-left: 2em;
@@ -27,7 +29,7 @@
   top: 0;
   width: 100%;
   flex-direction: column;
-  height: 2em;
+  background-color: beige;
 }
 .buttom {
   width: 1.5em;
@@ -43,16 +45,17 @@
   width: 100%;
   justify-content: center;
   align-items: center;
-  padding-left: 1em;
-}
 
+  margin-top: 1em;
+}
 @media (min-width: 38em) {
   .nav {
     display: flex;
     justify-content: space-between;
-    padding: 0.7em;
+    padding: 0.5em;
     flex-direction: row;
     padding-left: 2em;
+    align-items: center;
   }
   .open {
     display: none;
@@ -67,5 +70,13 @@
   }
   .buttom {
     display: none;
+  }
+  .nav > ul > li {
+    padding: 10px;
+  }
+  .nav > ul > li :hover {
+    padding: 8px;
+    border-radius: 10px;
+    border: solid 1px grey;
   }
 }
