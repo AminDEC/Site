@@ -3,6 +3,7 @@
   font-size: 1.5em;
   color: black;
   padding: 10px;
+  font-family: Verdana;
 }
 
 .list {
@@ -11,6 +12,7 @@
 .open > li {
   list-style-type: none;
   margin-bottom: 0.7em;
+  font-family: Verdana;
 }
 
 .item {
@@ -67,6 +69,7 @@
   }
   .list > li {
     list-style-type: none;
+    font-family: Verdana;
   }
   .buttom {
     display: none;

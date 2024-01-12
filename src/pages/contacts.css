@@ -9,7 +9,19 @@
   text-decoration: none;
   color: black;
   padding-top: 10px;
+  font-family: Verdana;
 }
+p {
+  font-family: Verdana;
+  font-size: 0.9em;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: Verdana;
+  font-size: 1em;
+}
+
 .t_info {
   display: flex;
   width: 90%;

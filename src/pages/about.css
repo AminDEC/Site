@@ -43,6 +43,7 @@
   grid-area: languages;
   padding: 1em;
 }
+
 .skills {
   grid-area: skills;
   display: grid;
@@ -91,11 +92,13 @@
 h2 {
   font-family: monospace;
   font-size: 2.4em;
+  padding-bottom: 10px;
 }
 
 p {
   font-family: Verdana;
   font-size: 0.9em;
+  padding-bottom: 10px;
 }
 
 h3 {

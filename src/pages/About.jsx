@@ -68,8 +68,10 @@ function About() {
               <p>{Data.skills.React}</p>
             </div>
             <div className={skills == "flutter" ? "mobile" : "disply_set"}>
+              <h3>Dart</h3>
+              <p>{Data.skills.Dart}</p>
               <h3>Flutter</h3>
-              <p>Nothing to show here</p>
+              <p>{Data.skills.Flutter}</p>
             </div>
           </div>
         </div>

@@ -11,10 +11,14 @@
   padding-left: 1.2em;
   text-decoration: none;
   padding-top: 1em;
+  font-family: Verdana;
 }
 
+h3 {
+  font-family: Verdana;
+}
 @media (min-width: 50em) {
   .containner > a {
-    padding-top: 0;
+    padding-top: 0.5em;
   }
 }
