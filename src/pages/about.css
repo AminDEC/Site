@@ -106,7 +106,6 @@ h3 {
 @media (min-width: 50em) {
   .container {
     padding-top: 5em;
-
     grid-template-areas:
       "about about profile profile"
       "about about profile profile"

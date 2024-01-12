@@ -5,7 +5,7 @@ function Projects() {
     <div>
       <NavBar />
 
-      <div className="container">
+      <div className="containner">
         <h3>My personal Website (React js)</h3>
         <a
           href="https://github.com/AminDEC/Site"
