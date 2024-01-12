@@ -1,7 +1,9 @@
+import { useState } from "react";
 import NavBar from "../components/NavBar";
 import "./about.css";
 import Data from "./data";
 function About() {
+  const [skills, setSkills] = useState("web");
   return (
     <div>
       <NavBar />
@@ -34,14 +36,44 @@ function About() {
           })}
         </div>
         <div className="skills">
-          <h2>Skills </h2>
-          <h3>JavaScript</h3>
-          <p>{Data.skills.JavaScript}</p>
-          <h3>HTML & CSS</h3>
-          <p>{Data.skills.HTML_CS}</p>
-          <h3>React Js</h3>
-          <p>{Data.skills.React}</p>
+          <button
+            className={
+              skills == "web" ? "web_b button buttom_set" : "web_b button"
+            }
+            onClick={() => {
+              setSkills("web");
+            }}
+          >
+            Front End
+          </button>
+          <button
+            className={
+              skills == "flutter"
+                ? "mobile_b button buttom_set"
+                : "mobile_b button"
+            }
+            onClick={() => {
+              setSkills("flutter");
+            }}
+          >
+            Flutter
+          </button>
+          <div className="disply_e">
+            <div className={skills == "web" ? "web" : "disply_set"}>
+              <h3>JavaScript</h3>
+              <p>{Data.skills.JavaScript}</p>
+              <h3>HTML & CSS</h3>
+              <p>{Data.skills.HTML_CS}</p>
+              <h3>React Js</h3>
+              <p>{Data.skills.React}</p>
+            </div>
+            <div className={skills == "flutter" ? "mobile" : "disply_set"}>
+              <h3>Flutter</h3>
+              <p>Nothing to show here</p>
+            </div>
+          </div>
         </div>
+
         <div className="side_skills">
           <h2>Side Skills </h2>
           <div className="side">
@@ -60,6 +92,7 @@ function About() {
             })}
           </div>
         </div>
+
         <div className="experience">
           <h2>Experience </h2>
           <p>{Data.experience}</p>

@@ -4,17 +4,17 @@
 
 .container {
   padding-top: 2.5em;
-  width: 100%;
+
   display: grid;
-  grid-row: 1fr;
+
   grid-template-areas:
     "profile"
     "about"
     "profile_data"
-    "education"
-    "courses"
     "languages"
     "skills"
+    "education"
+    "courses"
     "side_skills"
     "soft_skills"
     "experience";
@@ -31,6 +31,10 @@
   grid-area: education;
   padding: 1em;
 }
+.buttom_set {
+  background-color: blue;
+  border-radius: 30px;
+}
 .courses {
   grid-area: courses;
   padding: 1em;
@@ -41,7 +45,29 @@
 }
 .skills {
   grid-area: skills;
+  display: grid;
+  grid-template-areas:
+    "web_b mobile_b"
+    "disply_e disply_e";
   padding: 1em;
+  border: 1px solid black;
+}
+.button {
+  height: 5em;
+  border: 1px solid blanchedalmond;
+}
+.web_b {
+  grid-area: web_b;
+}
+.mobile_b {
+  grid-area: mobile_b;
+}
+.disply_e {
+  grid-area: disply_e;
+  margin-top: 1em;
+}
+.disply_set {
+  display: none;
 }
 .side_skills {
   grid-area: side_skills;
@@ -85,8 +111,9 @@ h3 {
       "about about profile profile"
       "about about profile profile"
       "profile_data profile_data languages  languages"
-      "education education courses courses"
       "skills skills skills skills"
+      "skills skills skills skills"
+      "education education courses courses"
       " side_skills side_skills  soft_skills soft_skills"
       "experience experience experience experience";
     gap: 2em;
@@ -99,5 +126,9 @@ h3 {
   .about {
     margin-top: auto;
     margin-bottom: auto;
+  }
+  .skills {
+    width: 95%;
+    margin: auto;
   }
 }
