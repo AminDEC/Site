@@ -7,7 +7,7 @@ function HomePage() {
     <div className="page">
       <NavBar />
       <div className="home">
-        <img src="/pic.png" alt="" className="main_pic" />
+        <img src="/img.png" alt="" className="main_pic" />
         <div className="info_data">
           <div>
             <h1 className="name">Hi I`m Amin</h1>
