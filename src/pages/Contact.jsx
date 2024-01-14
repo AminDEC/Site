@@ -17,7 +17,7 @@ function Contact() {
           <div className="social">
             <img src="/telegram.png" alt="" className="icon" />
             <a
-              href="https://plainenglish.io/blog/react-open-link-in-new-tab"
+              href="https://t.me/mostafa_mohammadi_amin"
               className="link"
               target="_blank"
               rel="noreferrer"
@@ -28,7 +28,7 @@ function Contact() {
           <div className="social">
             <img src="/instagram.png" alt="" className="icon" />
             <a
-              href="https://plainenglish.io/blog/react-open-link-in-new-tab"
+              href="https://www.instagram.com/aminmostapham/"
               className="link"
               target="_blank"
               rel="noreferrer"
@@ -39,7 +39,7 @@ function Contact() {
           <div className="social">
             <img src="/skype.png" alt="" className="icon" />
             <a
-              href="https://plainenglish.io/blog/react-open-link-in-new-tab"
+              href="https://join.skype.com/invite/GEVzGrwcccnj"
               className="link"
               target="_blank"
               rel="noreferrer"
@@ -50,7 +50,7 @@ function Contact() {
           <div className="social">
             <img src="/cat.png" alt="" className="icon" />
             <a
-              href="https://plainenglish.io/blog/react-open-link-in-new-tab"
+              href="https://github.com/AminDEC"
               className="link"
               target="_blank"
               rel="noreferrer"
@@ -61,7 +61,7 @@ function Contact() {
           <div className="social">
             <img src="/linkedin.png" alt="" className="icon" />
             <a
-              href="https://plainenglish.io/blog/react-open-link-in-new-tab"
+              href="https://www.linkedin.com/in/mostapha-m-amin/"
               className="link"
               target="_blank"
               rel="noreferrer"

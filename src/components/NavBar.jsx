@@ -1,6 +1,6 @@
 import { NavLink, Link } from "react-router-dom";
 import styles from "./NavBar.module.css";
-import { ReactSVG } from "react-svg";
+
 import { useState } from "react";
 
 function NavBar() {
@@ -34,8 +34,8 @@ function NavBar() {
           </NavLink>
         </li>
       </ul>
-      <ReactSVG
-        src="/more.svg"
+      <img
+        src="/menuu.png"
         className={styles.buttom}
         onClick={() => {
           setActive(!active);

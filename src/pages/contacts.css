@@ -10,6 +10,7 @@
   color: black;
   padding-top: 10px;
   font-family: Verdana;
+  color: azure;
 }
 p {
   font-family: Verdana;
@@ -26,7 +27,8 @@ h3 {
   display: flex;
   width: 90%;
   justify-content: space-between;
-  padding-bottom: 2em;
+  margin-bottom: 2em;
+  background-color: #2b2e41;
 }
 .social {
   width: 70%;

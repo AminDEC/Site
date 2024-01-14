@@ -24,10 +24,12 @@
   font-family: cursive;
   font-size: 2.5em;
   padding-bottom: 0.5em;
+  color: #ff4b57;
 }
 .info_text {
   font-family: cursive;
   font-size: 1.5em;
+  background-color: #23253a;
 }
 
 .go_about {
@@ -35,10 +37,10 @@
   font-size: 1.5em;
   text-decoration: none;
   color: black;
-  background-color: aqua;
+  background-color: #ff4b57;
   margin: auto;
-  border-radius: 15%;
-  padding: 0.2em;
+
+  padding: 0.5em;
 }
 @media (min-width: 50em) {
   .home {

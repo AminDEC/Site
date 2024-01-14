@@ -8,10 +8,10 @@ function About() {
     <div>
       <NavBar />
       <div className="container">
-        <img src="/profile.jpg" alt="profie" id="profile" />
+        <img src="/profile.jpg" alt="profile" id="profile" />
         <div className="about">
           <h2>I`m a Developer</h2>
-          <p id="data">{Data.about_me}</p>
+          <p>{Data.about_me}</p>
         </div>
         <div className="profile_data">
           <h2>Profile </h2>
@@ -37,9 +37,7 @@ function About() {
         </div>
         <div className="skills">
           <button
-            className={
-              skills == "web" ? "web_b button buttom_set" : "web_b button"
-            }
+            className={skills == "web" ? "web_b  buttom_set" : "web_b button"}
             onClick={() => {
               setSkills("web");
             }}
@@ -48,9 +46,7 @@ function About() {
           </button>
           <button
             className={
-              skills == "flutter"
-                ? "mobile_b button buttom_set"
-                : "mobile_b button"
+              skills == "flutter" ? "mobile_b  buttom_set" : "mobile_b button"
             }
             onClick={() => {
               setSkills("flutter");

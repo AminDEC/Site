@@ -3,7 +3,7 @@
 }
 
 .container {
-  padding-top: 2.5em;
+  padding-top: 5em;
 
   display: grid;
 
@@ -22,18 +22,30 @@
 .profile_data {
   grid-area: profile_data;
   padding: 1em;
+  background-color: #2b2e41;
 }
 .about {
   grid-area: about;
   padding: 1em;
+  background-color: #2b2e41;
+}
+
+.about > p {
+  font-size: 1em;
+}
+
+.about > h2 {
+  font-size: 3em;
+  color: #ff4b57;
 }
 .education {
   grid-area: education;
   padding: 1em;
 }
 .buttom_set {
-  background-color: blue;
-  border-radius: 30px;
+  background-color: #ff4b57;
+  color: azure;
+  border: none;
 }
 .courses {
   grid-area: courses;
@@ -51,11 +63,12 @@
     "web_b mobile_b"
     "disply_e disply_e";
   padding: 1em;
-  border: 1px solid black;
 }
 .button {
   height: 5em;
-  border: 1px solid blanchedalmond;
+  border: none;
+  background-color: #2b2e41;
+  color: azure;
 }
 .web_b {
   grid-area: web_b;
@@ -65,7 +78,8 @@
 }
 .disply_e {
   grid-area: disply_e;
-  margin-top: 1em;
+
+  background-color: #2b2e41;
 }
 .disply_set {
   display: none;
@@ -73,14 +87,17 @@
 .side_skills {
   grid-area: side_skills;
   padding: 1em;
+  background-color: #2b2e41;
 }
 .soft_skills {
   grid-area: soft_skills;
   padding: 1em;
+  background-color: #2b2e41;
 }
 .experience {
   grid-area: experience;
   padding: 1em;
+  background-color: #2b2e41;
 }
 #profile {
   width: 50%;
@@ -92,18 +109,25 @@
 h2 {
   font-family: monospace;
   font-size: 2.4em;
-  padding-bottom: 10px;
+  background-color: #2b2e41;
+  padding: 10px;
+  color: #ff4b57;
 }
 
 p {
   font-family: Verdana;
   font-size: 0.9em;
-  padding-bottom: 10px;
+  padding: 10px;
+  background-color: #2b2e41;
+  color: azure;
 }
 
 h3 {
   font-family: Verdana;
   font-size: 1em;
+  padding: 10px;
+  background-color: #2b2e41;
+  color: #ff4b57;
 }
 
 @media (min-width: 50em) {
@@ -120,6 +144,7 @@ h3 {
       "experience experience experience experience";
     gap: 2em;
     padding-left: 4em;
+    padding-right: 3em;
   }
   #profile {
     width: 40%;
@@ -132,5 +157,11 @@ h3 {
   .skills {
     width: 95%;
     margin: auto;
+  }
+  .about > h2 {
+    font-size: 4em;
+  }
+  .about > p {
+    font-size: 1.1em;
   }
 }
