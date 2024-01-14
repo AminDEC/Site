@@ -7,7 +7,7 @@ function Contact() {
       <div className="cantact_info">
         <div className="t_info">
           <h3>Phone / WhatsApp: </h3>
-          <p>+989202091311</p>
+          <p>+98 920 209 1311</p>
         </div>
         <div className="t_info">
           <h3>E-mail: </h3>
