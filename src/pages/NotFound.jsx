@@ -4,7 +4,7 @@ function NotFound() {
   return (
     <div>
       <NavBar />
-      <div className="page">
+      <div className="pagee">
         <img src="/page.png" className="img" />
       </div>
     </div>

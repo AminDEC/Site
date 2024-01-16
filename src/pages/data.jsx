@@ -2,11 +2,11 @@
 const Data = {
   about_me:
     "I`m Mostapha M Amin and I`m a front-end developer ." +
-    "in past monthes I`ve been learning HTML , CSS , JavaScript and React Js. " +
-    "I`m eager to learn more and take on new challengaes to improve my skills ",
+    "in past months I`ve been learning HTML , CSS , JavaScript,and React Js. " +
+    "I`m eager to learn more and take on new challenges to improve my skills",
   education:
-    " Bachelor /Electrical Enginering  /Sahhrood / 2018 - 2021 / Not finished with degree",
-  courses: "ICT Research Institute - E-commerce cource (20 hr) - Summer 2023",
+    " Bachelor /Electrical Engineering  /Sahhrood / 2018 - 2021 / Not finished with a degree",
+  courses: "ICT Research Institute - E-commerce course (20 hr) - Summer 2023",
   Maritial: "Single",
   languages: ["Persian : Native", "English : Advanced"],
   military: "In service , IRGC",
