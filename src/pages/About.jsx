@@ -8,7 +8,7 @@ function About() {
     <div>
       <NavBar />
       <div className="container">
-        <img src="/profile.jpg" alt="profile" id="profile" />
+        <img src="/p_i.png" alt="profile" id="profile" />
         <div className="about">
           <h2>I`m a Developer</h2>
           <p>{Data.about_me}</p>
