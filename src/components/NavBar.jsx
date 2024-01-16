@@ -35,7 +35,7 @@ function NavBar() {
         </li>
       </ul>
       <img
-        src="/menuu.png"
+        src="/menu.png"
         className={styles.buttom}
         onClick={() => {
           setActive(!active);
