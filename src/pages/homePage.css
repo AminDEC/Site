@@ -24,20 +24,21 @@
   font-family: cursive;
   font-size: 2.5em;
   padding-bottom: 0.5em;
-  color: #ff4b57;
+  color: #3f72af;
 }
 .info_text {
   font-family: cursive;
   font-size: 1.5em;
-  background-color: #23253a;
+  background-color: #dbe2ef;
+  color: #112d4e;
 }
 
 .go_about {
   font-family: cursive;
   font-size: 1.5em;
   text-decoration: none;
-  color: black;
-  background-color: #ff4b57;
+  color: #112d4e;
+  background-color: #3f72af;
   margin: auto;
 
   padding: 0.5em;

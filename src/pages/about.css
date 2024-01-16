@@ -22,12 +22,12 @@
 .profile_data {
   grid-area: profile_data;
   padding: 1em;
-  background-color: #2b2e41;
+  background-color: #eeeeee;
 }
 .about {
   grid-area: about;
   padding: 1em;
-  background-color: #2b2e41;
+  background-color: #eeeeee;
 }
 
 .about > p {
@@ -36,14 +36,14 @@
 
 .about > h2 {
   font-size: 3em;
-  color: #ff4b57;
+  color: #112d4e;
 }
 .education {
   grid-area: education;
   padding: 1em;
 }
 .buttom_set {
-  background-color: #ff4b57;
+  background-color: #112d4e;
   color: azure;
   border: none;
 }
@@ -67,8 +67,8 @@
 .button {
   height: 5em;
   border: none;
-  background-color: #2b2e41;
-  color: azure;
+  background-color: #eeeeee;
+  color: #112d4e;
 }
 .web_b {
   grid-area: web_b;
@@ -79,7 +79,7 @@
 .disply_e {
   grid-area: disply_e;
 
-  background-color: #2b2e41;
+  background-color: #eeeeee;
 }
 .disply_set {
   display: none;
@@ -87,17 +87,17 @@
 .side_skills {
   grid-area: side_skills;
   padding: 1em;
-  background-color: #2b2e41;
+  background-color: #eeeeee;
 }
 .soft_skills {
   grid-area: soft_skills;
   padding: 1em;
-  background-color: #2b2e41;
+  background-color: #eeeeee;
 }
 .experience {
   grid-area: experience;
   padding: 1em;
-  background-color: #2b2e41;
+  background-color: #eeeeee;
 }
 #profile {
   width: 70%;
@@ -110,25 +110,25 @@
 h2 {
   font-family: monospace;
   font-size: 2.4em;
-  background-color: #2b2e41;
+  background-color: #eeeeee;
   padding: 10px;
-  color: #ff4b57;
+  color: #112d4e;
 }
 
 p {
   font-family: Verdana;
   font-size: 0.9em;
   padding: 10px;
-  background-color: #2b2e41;
-  color: azure;
+  background-color: #eeeeee;
+  color: #112d4e;
 }
 
 h3 {
   font-family: Verdana;
   font-size: 1em;
   padding: 10px;
-  background-color: #2b2e41;
-  color: #ff4b57;
+  background-color: #eeeeee;
+  color: #112d4e;
 }
 
 @media (min-width: 50em) {
